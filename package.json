@@ -1,0 +1,31 @@
+{
+  "name": "quiz-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enisazizi/quiz-backend.git"
+  },
+  "keywords": [],
+  "author": "Enis Azizi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enisazizi/quiz-backend/issues"
+  },
+  "homepage": "https://github.com/enisazizi/quiz-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "express-validator": "^6.9.2",
+    "fs-extra": "^9.0.1",
+    "nodemon": "^2.0.7",
+    "uniqid": "^5.2.0"
+  }
+}
