@@ -42,7 +42,7 @@ check("name")
 
         //     let nextRandomQuestion = questions[Math.floor(Math.random()*questions.length)]
         //     for(let y= 0 ; y<randomExam.length;y++){
-        //         if(randomExam[y] ===nextRandomQuestion){
+        //         if(randomExam[y].text === nextRandomQuestion.text){
         //             check = true;
         //         }
         //               }   
